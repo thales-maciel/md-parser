@@ -1,0 +1,26 @@
+{
+  "name": "md-renderer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest --no-cache --watchAll",
+    "build": "rimraf dist && tsc -p tsconfig-build.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "module-alias": "^2.2.2",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.41",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
+  },
+  "_moduleAliases": {
+    "@": "dist"
+  }
+}
