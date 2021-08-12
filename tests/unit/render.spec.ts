@@ -1,5 +1,4 @@
 import { render } from "@/renderer";
-import { main } from "@/index";
 import { ElementType } from "@/ast/ElementType";
 
 describe("Render Unit Tests", () => {

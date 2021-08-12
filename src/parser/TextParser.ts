@@ -3,7 +3,7 @@ import { ElementParser } from "./ElementParser";
 
 export class TextParser implements ElementParser<Text> {
   accept(s: string): boolean {
-    return true;
+    return Boolean(s);
   }
 
   parse(s: string) {

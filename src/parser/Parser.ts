@@ -1,12 +1,12 @@
-import { astNode } from "@/ast/Elements";
+import { AstNode } from "@/ast/Elements";
 import { ElementParser } from "./ElementParser";
 
 export class Parser {
-  constructor(private elementParsers: ElementParser<astNode>[]) {}
+  constructor(private elementParsers: ElementParser<AstNode>[]) {}
 
-  parse(s: string): any {
+  parse(s: string): AstNode[] {
     let text = s;
-    const parsedContent: astNode[] = [];
+    const parsedContent: AstNode[] = [];
     while (text) {
       const { node, rawText } = this.parseElement(text);
       parsedContent.push(node);

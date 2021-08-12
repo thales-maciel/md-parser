@@ -4,7 +4,7 @@ import { NodeRenderer } from "./Renderer";
 
 export class ParagraphRenderer implements ElementRenderer<Paragraph> {
   constructor(private elementRenderer: NodeRenderer) {}
-  render(node: Paragraph) {
+  render(node: Paragraph): string {
     const renderedChildren = node.children
       .map((child) => this.elementRenderer.render(child))
       .join();

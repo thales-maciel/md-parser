@@ -1,20 +1,20 @@
 import { ElementType } from "@/ast/ElementType";
 
-export class astNode {
+export class AstNode {
   readonly type: ElementType;
 }
 
-abstract class Container implements astNode {
+abstract class Container implements AstNode {
   type: ElementType;
-  children: astNode[];
+  children: AstNode[];
 
-  constructor(children: astNode[] = []) {
+  constructor(children: AstNode[] = []) {
     this.children = children;
   }
 }
 
 export class Heading extends Container {
-  constructor(children: astNode[], level: number) {
+  constructor(children: AstNode[], level: number) {
     super(children);
     this.level = level;
   }
@@ -30,7 +30,7 @@ export class Root extends Container {
   type = ElementType.Root;
 }
 
-export class Text implements astNode {
+export class Text implements AstNode {
   constructor(content: string) {
     this.content = content;
   }
