@@ -27,3 +27,15 @@ node dist/index.js path_to_file.md
 ```sh
 npm run test
 ```
+
+### Why typescript
+- Because I feel confortable with javascript
+- To get more familiar with types
+
+### Motivos para a aplicação mudar
+- Mudanças no contrato de entrada
+- Adição de outros formatos de saída
+- Adição de suporte para outros elementos markdown
+- Correção de bugs / efeitos inesperados
+- Melhorias de performance / lógica
+- Alteração da api pública da aplicação
