@@ -1,4 +1,4 @@
-import { AstNode } from "@/ast/Elements";
+import { AstNode } from "@/md/ast/Elements";
 import { ElementParser } from "./ElementParser";
 
 export class Parser {

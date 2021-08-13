@@ -1,7 +1,9 @@
-import { ElementType } from "@/ast/ElementType";
+import { ElementType } from "@/md/ast/ElementType";
 
 export class AstNode {
   readonly type: ElementType;
+  children?: AstNode[];
+  content?: string;
 }
 
 abstract class Container implements AstNode {

@@ -1,4 +1,4 @@
-import {parse} from '@/parser'
+import {parse} from '@/md/parser'
 
 describe('Parser Unit Tests', () => {
   it('should return empty ast', () => {

@@ -1,3 +1,3 @@
 export interface ElementRenderer<T> {
-  render(node: T): string;
+  render(node: T, content: string): string;
 }

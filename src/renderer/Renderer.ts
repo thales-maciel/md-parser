@@ -1,23 +1,5 @@
-import { AstNode, Heading, Paragraph, Root, Text } from "@/ast/Elements";
-import { ElementType } from "@/ast/ElementType";
-import { HeadingRenderer } from "./HeadingRenderer";
-import { ParagraphRenderer } from "./ParagraphRenderer";
-import { TextRenderer } from "./TextRenderer";
+import { Root } from "@/md/ast/Elements";
 
-export class HTMLRenderer {
-  constructor(private nodeRenderer: NodeRenderer){}
-
-  render(ast: Root): string {
-    return ast.children.reduce((acc, cur) => acc.concat(this.nodeRenderer.render(cur)), "");
-  }
-}
-
-export class NodeRenderer {
-  render(node: AstNode): string {
-    return node.type === ElementType.Paragraph
-    ? new ParagraphRenderer(this).render(node as Paragraph)
-    : node.type === ElementType.Heading
-    ? new HeadingRenderer(this).render(node as Heading)
-    : new TextRenderer().render(node as Text);
-  }
+export interface Renderer {
+  render(ast: Root): string
 }

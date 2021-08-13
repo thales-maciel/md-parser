@@ -1,5 +1,5 @@
 import { render } from "@/renderer";
-import { ElementType } from "@/ast/ElementType";
+import { ElementType } from "@/md/ast/ElementType";
 
 describe("Render Unit Tests", () => {
   it("should return empty string", () => {
@@ -19,8 +19,9 @@ describe("Render Unit Tests", () => {
           type: ElementType.Paragraph,
           children: [
             {
-              type: "Text",
+              type: ElementType.Text,
               content: "hey!",
+              children: []
             },
           ],
         },

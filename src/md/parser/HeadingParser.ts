@@ -1,4 +1,4 @@
-import { Heading } from "@/ast/Elements";
+import { Heading } from "@/md/ast/Elements";
 import { ElementParser } from "./ElementParser";
 import {Parser} from "./Parser";
 

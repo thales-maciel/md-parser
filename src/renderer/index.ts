@@ -1,6 +1,6 @@
-import { Root } from "@/ast/Elements"
-import { HTMLRenderer, NodeRenderer } from "./Renderer"
+import { Root } from "@/md/ast/Elements"
+import { htmlRenderer } from "./html"
 
 export const render = (tree: Root): string => {
-  return new HTMLRenderer(new NodeRenderer()).render(tree)
+  return htmlRenderer.render(tree)
 }

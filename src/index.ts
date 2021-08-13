@@ -1,12 +1,7 @@
 import "module-alias/register";
 
 import fs from "fs";
-import { render } from "./renderer";
-import { parse } from "./parser";
-
-export const main = (s: string): string => {
-  return render(parse(s))
-};
+import { main } from "@/main";
 
 const inputFile = process.argv[2];
 

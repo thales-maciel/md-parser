@@ -1,4 +1,4 @@
-import { main } from "@/index";
+import { main } from "@/main";
 
 describe("MD to HTML Integration Tests", () => {
   it("should render multiline paragraph", () => {
