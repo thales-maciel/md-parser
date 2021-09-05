@@ -1,4 +1,4 @@
-import { Paragraph } from "@/md/ast/Elements";
+import { Paragraph } from "@/markdown/ast/Elements";
 import { ElementParser } from "./ElementParser";
 import { Parser } from "./Parser";
 

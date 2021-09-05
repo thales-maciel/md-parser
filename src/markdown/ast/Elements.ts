@@ -1,4 +1,4 @@
-import { ElementType } from "@/md/ast/ElementType";
+import { ElementType } from "@/markdown/ast/ElementType";
 
 export class AstNode {
   readonly type: ElementType;

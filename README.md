@@ -36,6 +36,4 @@ npm run test
 - Mudanças no contrato de entrada
 - Adição de outros formatos de saída
 - Adição de suporte para outros elementos markdown
-- Correção de bugs / efeitos inesperados
-- Melhorias de performance / lógica
 - Alteração da api pública da aplicação

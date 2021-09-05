@@ -1,4 +1,4 @@
-import { AstNode } from "@/md/ast/Elements";
+import { AstNode } from "@/markdown/ast/Elements";
 import { ElementParser } from "./ElementParser";
 
 export class Parser {

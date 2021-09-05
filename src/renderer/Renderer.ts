@@ -1,4 +1,4 @@
-import { Root } from "@/md/ast/Elements";
+import { Root } from "@/markdown/ast/Elements";
 
 export interface Renderer {
   render(ast: Root): string

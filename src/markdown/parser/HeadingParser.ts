@@ -1,4 +1,4 @@
-import { Heading } from "@/md/ast/Elements";
+import { Heading } from "@/markdown/ast/Elements";
 import { ElementParser } from "./ElementParser";
 import {Parser} from "./Parser";
 

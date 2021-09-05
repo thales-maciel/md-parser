@@ -1,4 +1,4 @@
-import { Heading } from "@/md/ast/Elements";
+import { Heading } from "@/markdown/ast/Elements";
 import { ElementRenderer } from "@/renderer/ElementRenderer";
 
 export class HeadingRenderer implements ElementRenderer<Heading> {

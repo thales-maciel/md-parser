@@ -1,5 +1,5 @@
 import { render } from "@/renderer";
-import { ElementType } from "@/md/ast/ElementType";
+import { ElementType } from "@/markdown/ast/ElementType";
 
 describe("Render Unit Tests", () => {
   it("should return empty string", () => {
