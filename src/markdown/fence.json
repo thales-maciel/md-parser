@@ -1,0 +1,6 @@
+{
+  "tags": ["markdown"],
+  "exports": ["ast/index", "parser/index"],
+  "imports": [],
+  "dependencies": []
+}

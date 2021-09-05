@@ -1,5 +1,5 @@
-import { AstNode, Root } from "@/markdown/ast/Elements";
-import { ElementType } from "@/markdown/ast/ElementType";
+import { AstNode, Root } from "@/markdown/ast";
+import { ElementType } from "@/markdown/ast";
 import { ElementRenderer } from "@/renderer/ElementRenderer";
 import { Renderer } from "@/renderer/Renderer";
 

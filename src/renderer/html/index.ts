@@ -1,5 +1,5 @@
-import { AstNode } from "@/markdown/ast/Elements"
-import { ElementType } from "@/markdown/ast/ElementType"
+import { AstNode } from "@/markdown/ast"
+import { ElementType } from "@/markdown/ast"
 import { ElementRenderer } from "@/renderer/ElementRenderer"
 import { HeadingRenderer } from "@/renderer/html/HeadingRenderer"
 import { ParagraphRenderer } from "@/renderer/html/ParagraphRenderer"

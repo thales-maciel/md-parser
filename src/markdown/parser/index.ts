@@ -1,4 +1,4 @@
-import { Root } from "@/markdown/ast/Elements";
+import { Root } from "@/markdown/ast";
 import { HeadingParser } from "./HeadingParser";
 import { ParagraphParser } from "./ParagraphParser";
 import { Parser } from "./Parser";

@@ -1,4 +1,4 @@
-import { Paragraph } from "@/markdown/ast/Elements";
+import { Paragraph } from "@/markdown/ast";
 import { ElementRenderer } from "@/renderer/ElementRenderer";
 
 export class ParagraphRenderer implements ElementRenderer<Paragraph> {

@@ -1,4 +1,4 @@
-import { Root } from "@/markdown/ast/Elements"
+import { Root } from "@/markdown/ast"
 import { htmlRenderer } from "./html"
 
 export const render = (tree: Root): string => {

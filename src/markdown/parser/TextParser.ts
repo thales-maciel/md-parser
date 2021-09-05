@@ -1,4 +1,4 @@
-import { Text } from "@/markdown/ast/Elements";
+import { Text } from "@/markdown/ast";
 import { ElementParser } from "./ElementParser";
 
 export class TextParser implements ElementParser<Text> {
