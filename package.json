@@ -2,6 +2,11 @@
   "name": "md-renderer",
   "version": "1.0.0",
   "description": "",
+  "main": "./dist/index.js",
+  "bin": {
+    "md-renderer": "./bin/md-renderer",
+    "mdr": "./bin/md-renderer"
+  },
   "scripts": {
     "test": "jest --no-cache --watchAll",
     "build": "rimraf dist && tsc -p tsconfig-build.json",
